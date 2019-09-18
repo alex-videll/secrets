@@ -4,9 +4,20 @@ class SecretsController < ApplicationController
 	end
 
 	def new
-		@secret = Secret.new
+		@secret = Secret.new(secret_params)
+	end
+
+	def create
+		Secret.create
+		redirect_to root_path
 	end
 
 	def about
+	end
+
+	private
+
+	def secret_params
+		params.require(:secret).permit(:secret)
 	end
 end
