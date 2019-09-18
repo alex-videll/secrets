@@ -1,1 +1,39 @@
 @import "bootstrap";
+
+.clear {
+	clear: both;
+}
+
+.circle {
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    border-radius: 100%;
+    background: #cc6699;
+    border: 1px solid #F7F7F7;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+    text-align: center;
+    color: #FFF;
+    font-size: 15px;
+    line-height: 20px;
+    cursor: pointer;
+    transform: rotate(11deg);
+    -ms-transform: rotate(11deg);
+    -webkit-transform: rotate(11deg);
+    }
+
+    .links {
+    padding-top: 25px;
+    }
+
+    .links a {
+   		color: black;
+   		font-size: 25px;
+    }
+
+    header {
+    border-top: 9px solid #222222;
+    }
+

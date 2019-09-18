@@ -10,6 +10,26 @@
   </head>
 
   <body>
+    <header class="row">
+      <div class="col-3">
+      <div class="circle">
+        Secrets
+        <br />
+        Share them here!
+        <br />
+      </div>
+      <div class="col-4">
+        Storing all your secrets so you don't have to.
+      </div>
+      <div class="col-5 links">
+        <%= link_to 'Post a Secret', '#' %>
+        <%= link_to 'About', '#' %>
+      </div>
+    </header>
+
+    <br class="clear" />
     <%= yield %>
+
+
   </body>
 </html>
