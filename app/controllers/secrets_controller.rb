@@ -18,6 +18,6 @@ class SecretsController < ApplicationController
 	private
 
 	def secret_params
-		params.require(:secret).permit(:secret)
+		params.permit(:secret)
 	end
 end
